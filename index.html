@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/stlyle.css">
+</head>
+<body>
+    <section class="borde-imagen">
+        <picture>
+            <img src="./assets/img/img-border.jpg" id="changeborder" class="border" title="Clickea para cambiar borde">
+        </picture>
+    </section>
+
+    <section class="seleccion-sticker">
+        <div class="content-1">
+            <div class="img-option">
+                <div class="images">
+                   <img src="./assets/img/img-2-1.jpg" alt="">
+                   <label for="numbers">Ingresa la cantidad de Stickers!</label>
+                   <input type="text" id="option1" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+                <div class="images">
+                   <img src="./assets/img/img-2-2.jpg" alt="">
+                   <label for="numbers">Ingresa la cantidad de Stickers!</label>
+                   <input type="text" id="option2" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+                <div class="images">
+                   <img src="./assets/img/img-2-3.jpg" alt="">
+                   <label for="numbers">Ingresa la cantidad de Stickers!</label>
+                   <input type="text" id="option3" pattern="[0-9]" min="1" max="10" title="Agrega una cantidad entre 1 y 10" placeholder="1-10">
+                </div>
+            </div>
+            <button id="count">Verificar</button>
+            <p id="amount_info"></p>
+        </div>
+    </section>
+
+    <section class="clave">
+        <div class="content-2">
+            <p>Ingresa tu combinación</p>
+            <div class="key-number">
+                <select id="key1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="key2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id="key3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>            
+            </div>
+            <button id="validation">INGRESAR</button>
+            <P id="checker"></P>
+        </div>
+    </section>
+
+
+
+<!-- Script -->
+
+    <script src="./assets/js/script.js"></script>
+    
+</body>
+</html>
